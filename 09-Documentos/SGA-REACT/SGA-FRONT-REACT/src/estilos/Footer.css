@@ -1,0 +1,28 @@
+
+
+/* Color personalizado para el footer - igual al navbar */
+.footer-custom {
+    background-color: rgb(53, 62, 235) !important;
+}
+
+/* Efectos hover para los enlaces */
+footer a:hover {
+    color: #ffffff !important;
+    transform: translateY(-2px);
+    transition: all 0.3s ease;
+}
+
+/* Estilos para los iconos */
+footer .bi {
+    font-size: 1.2rem;
+    transition: transform 0.3s ease;
+}
+
+footer .bi:hover {
+    transform: scale(1.2);
+}
+
+/* Asegurar que los textos sean legibles */
+.footer-custom .text-light.opacity-75 {
+    opacity: 0.9 !important;
+}
